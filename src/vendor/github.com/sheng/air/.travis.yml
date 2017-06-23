@@ -1,0 +1,17 @@
+language: go
+
+go:
+  - 1.8.x
+  - tip
+
+install:
+  - go get github.com/BurntSushi/toml
+  - go get github.com/tdewolff/minify
+  - go get github.com/fsnotify/fsnotify
+  - go get github.com/stretchr/testify
+
+script:
+  - go test -v -covermode=count -coverprofile=coverage.out
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

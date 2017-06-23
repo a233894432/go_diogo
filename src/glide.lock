@@ -1,0 +1,6 @@
+hash: 6c8896ee18917363779e3427447d21e07ae1d2b5d446796179db739c4dfcd937
+updated: 2017-06-23T11:12:13.2882958+08:00
+imports:
+- name: github.com/sheng/air
+  version: 3365a16b57f3be0d3e361287e171cf1083bee6d2
+testImports: []
