@@ -1,6 +1,6 @@
 package main
 
-import "vendor/github.com/sheng/air"
+import "github.com/sheng/air"
 
 func main() {
 	a := air.New()
