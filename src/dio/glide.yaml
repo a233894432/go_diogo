@@ -1,0 +1,6 @@
+package: dio
+import:
+- package: gopkg.in/yaml.v2
+- package: github.com/ivpusic/neo
+  version: ^0.1.0
+- package: github.com/ivpusic/golog

@@ -1,0 +1,22 @@
+hash: 00a6ef2ec88925ca1c8ee6d27f812c96f9d83a2b2c8d0dde32879106a478fdbd
+updated: 2017-06-23T17:53:09.7506195+08:00
+imports:
+- name: github.com/ivpusic/go-clicolor
+  version: 23f0b77f328a0ff36434970ade8f7c0ec8e8148b
+  subpackages:
+  - clicolor
+- name: github.com/ivpusic/golog
+  version: 28640bee649fa9f065ca537ae68d244fd79845d4
+- name: github.com/ivpusic/neo
+  version: 43275a35db83116dae7fa6b9a5e2c9927694ca2a
+  subpackages:
+  - ebus
+- name: github.com/ivpusic/toml
+  version: 3fedaa159a92d673a801042a9e6e72d39f8f0fa2
+- name: github.com/ivpusic/urlregex
+  version: 4dd86e7844057c62b30f6c745d19200e1a31e13c
+- name: github.com/shiena/ansicolor
+  version: a422bbe96644373c5753384a59d678f7d261ff10
+- name: gopkg.in/yaml.v2
+  version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
+testImports: []
