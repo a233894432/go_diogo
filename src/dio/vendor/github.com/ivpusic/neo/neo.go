@@ -8,7 +8,7 @@ import (
 
 var (
 	app *Application
-	log = golog.GetLogger("github.com/ivpusic/neo")
+	log = golog.GetLogger("DIO")
 )
 
 func init() {
