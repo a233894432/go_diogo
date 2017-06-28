@@ -1,5 +1,5 @@
-hash: 00a6ef2ec88925ca1c8ee6d27f812c96f9d83a2b2c8d0dde32879106a478fdbd
-updated: 2017-06-23T17:53:09.7506195+08:00
+hash: 7b14b4109519075527478b683cdf7f1c7a2acf6f50951a922e4f3524961be5e7
+updated: 2017-06-27T11:17:13.448021+08:00
 imports:
 - name: github.com/ivpusic/go-clicolor
   version: 23f0b77f328a0ff36434970ade8f7c0ec8e8148b
@@ -7,6 +7,8 @@ imports:
   - clicolor
 - name: github.com/ivpusic/golog
   version: 28640bee649fa9f065ca537ae68d244fd79845d4
+  subpackages:
+  - appenders
 - name: github.com/ivpusic/neo
   version: 43275a35db83116dae7fa6b9a5e2c9927694ca2a
   subpackages:
@@ -17,6 +19,15 @@ imports:
   version: 4dd86e7844057c62b30f6c745d19200e1a31e13c
 - name: github.com/shiena/ansicolor
   version: a422bbe96644373c5753384a59d678f7d261ff10
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
 - name: gopkg.in/yaml.v2
   version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
 testImports: []

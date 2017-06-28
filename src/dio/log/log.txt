@@ -1,0 +1,1 @@
+{"time":"2017-06-28T02:06:52.2964866Z","message":"some message","level":{"value":10,"name":"DEBUG"},"data":null,"ctx":{},"pid":10328,"logger":{"name":"DIO    "}}
