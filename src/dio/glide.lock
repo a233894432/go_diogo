@@ -1,5 +1,5 @@
-hash: 65705ad901b2bd65abec06fe5e46328555434ccf30a34f3b128356fc699f3411
-updated: 2017-06-28T15:26:04.7526645+08:00
+hash: b0e89e9102495d4278912b95264eebae21008b55dff7b37af7ada4f0c9e1474b
+updated: 2017-06-29T14:38:51.3928413+08:00
 imports:
 - name: github.com/boltdb/bolt
   version: 583e8937c61f1af6513608ccc75c97b6abdf4ff9
@@ -33,6 +33,8 @@ imports:
   version: a422bbe96644373c5753384a59d678f7d261ff10
 - name: github.com/stretchr/testify
   version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+- name: goji.io
+  version: 0d89ff54b2c18c9c4ba530e32496aef902d3c6cd
 - name: gopkg.in/mgo.v2
   version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
   subpackages:
